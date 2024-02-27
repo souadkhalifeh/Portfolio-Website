@@ -5,13 +5,14 @@
     
 }
 h1{
-    text-align: center;
+    font-size: 44px;
+    padding: 10px;
 }
 .primarybg{
-    height: 250px;
+    height: 160px;
     text-align: center;
     margin-top: 50px;
-    line-height: 75px;
+    line-height: 50px;
 }
 
 img{
@@ -43,15 +44,16 @@ section{
 }
 .navbar-item{
     float: left;
-}
-li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
+    margin: 10px;
     text-decoration: none;
     text-justify: auto;
+
   }
-table,th,td{
+
+  table,th,td{
     width:700px;
     table-layout: auto;
     border: 3px solid;
@@ -59,8 +61,15 @@ table,th,td{
     padding: 20px;
     margin: 20px;
 }
+th,td{
+    
+}
 .navstyle{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.define{
+    font-size: 18px;
+    margin-top: 20px;
 }
